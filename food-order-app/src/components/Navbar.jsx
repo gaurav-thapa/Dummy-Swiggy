@@ -11,6 +11,7 @@ export default function Navbar() {
         />
         <span className="">Dummy Swiggy</span>
       </div>
+      <div className="bg-cyan-500 rounded text-white shadow-lg shadow-cyan-500/50 px-3 py-2">Please enable browser CORS extension to fetch data from SWIGGY!</div>
       <div>
         <ul className="flex gap-6">
           <Link to={"/Dummy-Swiggy/"}>Home</Link>

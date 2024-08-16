@@ -1,4 +1,5 @@
-const CORS_PROXY_URL = "https://thingproxy.freeboard.io/fetch/";
+let CORS_PROXY_URL = "https://thingproxy.freeboard.io/fetch/";
+CORS_PROXY_URL='';
 export const IMAGE_URL = "https://media-assets.swiggy.com/swiggy/image/upload/";
 export const TOP_RESTAURANTS =
   CORS_PROXY_URL +
