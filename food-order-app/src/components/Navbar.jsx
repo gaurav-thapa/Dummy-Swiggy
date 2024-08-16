@@ -1,7 +1,7 @@
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 export default function Navbar() {
-  const cartItems = useSelector((store)=>store.cart.items);
+  const cartItems = useSelector((store) => store.cart.items);
   return (
     <div className="flex justify-between py-4 px-16 items-center shadow text-lg">
       <div className="flex gap-6 items-center">
@@ -11,11 +11,10 @@ export default function Navbar() {
         />
         <span className="">Dummy Swiggy</span>
       </div>
-      <div className="bg-cyan-500 rounded text-white shadow-lg shadow-cyan-500/50 px-3 py-2">Please enable browser CORS extension to fetch data from SWIGGY!</div>
       <div>
         <ul className="flex gap-6">
           <Link to={"/Dummy-Swiggy/"}>Home</Link>
-          <Link to={'/Dummy-Swiggy/cart'}>Cart ({cartItems.length})</Link>
+          <Link to={"/Dummy-Swiggy/cart"}>Cart ({cartItems.length})</Link>
         </ul>
       </div>
     </div>
