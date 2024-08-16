@@ -8,7 +8,7 @@ import CartPage from "./pages/CartPage";
 function App() {
 
   const router = createBrowserRouter([{
-    path:'/', element:<RootLayout/>, children:[
+    path:'/Dummy-Swiggy/', element:<RootLayout/>, children:[
       {index:true, element:<TopRestaurants/>},
       {path:'restro/:id', element:<RestroPage/>},
       {path:'cart', element: <CartPage/>}

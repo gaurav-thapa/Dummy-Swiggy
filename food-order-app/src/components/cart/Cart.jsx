@@ -24,7 +24,7 @@ export default function Cart() {
               <div className="p-10 mt-5">
                 <Link
                   className="text-white font-bold rounded bg-orange-500 p-3 m-5"
-                  to={"/"}
+                  to={"/Dummy-Swiggy/"}
                 >
                   Browse Restaurants
                 </Link>

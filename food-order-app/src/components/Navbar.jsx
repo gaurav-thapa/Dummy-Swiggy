@@ -13,8 +13,8 @@ export default function Navbar() {
       </div>
       <div>
         <ul className="flex gap-6">
-          <Link to={"/"}>Home</Link>
-          <Link to={'/cart'}>Cart ({cartItems.length})</Link>
+          <Link to={"/Dummy-Swiggy/"}>Home</Link>
+          <Link to={'/Dummy-Swiggy/cart'}>Cart ({cartItems.length})</Link>
         </ul>
       </div>
     </div>
