@@ -11,7 +11,7 @@ export default function Cart() {
   const clearCartHandler = () => {
     dispatch(clearCart());
   };
-  console.log(items);
+  // console.log(items);
 
   return (
     <div className="container mx-auto m-10">
