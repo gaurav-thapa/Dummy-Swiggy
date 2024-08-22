@@ -1,9 +1,10 @@
 import { useNavigate } from "react-router-dom";
 export default function RestaurantCard({ res }) {
+  // console.log('restaurant card - ',res);
   const navigate = useNavigate();
   // console.log(res);
   return (
-    <div className="w-72 cursor-pointer hover:scale-95 ease-in-out duration-100 flex flex-col shadow" onClick={() => navigate("restro/" + res.info.id)}>
+    <div data-testid='res-card' className="w-72 cursor-pointer hover:scale-95 ease-in-out duration-100 flex flex-col shadow" onClick={() => navigate("restro/" + res.info.id)}>
       <img
         className="rounded-xl h-52 w-full"
         src={

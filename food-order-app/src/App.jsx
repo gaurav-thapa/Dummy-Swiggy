@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import RootLayout from "./pages/RootLayout";
 import RestroPage from "./pages/RestroPage";
 import CartPage from "./pages/CartPage";
+import Contact from "./components/Contact";
 
 function App() {
 
@@ -11,7 +12,8 @@ function App() {
     path:'/Dummy-Swiggy/', element:<RootLayout/>, children:[
       {index:true, element:<TopRestaurants/>},
       {path:'restro/:id', element:<RestroPage/>},
-      {path:'cart', element: <CartPage/>}
+      {path:'cart', element: <CartPage/>},
+      {path:'contact', element:<Contact/>}
     ]
   }]);
   

@@ -14,6 +14,7 @@ export default function Navbar() {
       <div>
         <ul className="flex gap-6">
           <Link to={"/Dummy-Swiggy/"}>Home</Link>
+          <Link to={"/Dummy-Swiggy/contact"}>Contact Us</Link>
           <Link to={"/Dummy-Swiggy/cart"}>Cart ({cartItems.length})</Link>
         </ul>
       </div>
