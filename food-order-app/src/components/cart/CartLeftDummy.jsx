@@ -12,7 +12,7 @@ export default function CartLeftDummy() {
             <div>Log In</div>{" "}
           </button>
           <button className="rounded-lg p-2 border-2 border-green-400 bg-green-400 text-white">
-            <div>New to Swiggy?</div> <div>Sign Up</div>
+            <div>New to Foodie&apos;s Place?</div> <div>Sign Up</div>
           </button>
         </div>
       </div>

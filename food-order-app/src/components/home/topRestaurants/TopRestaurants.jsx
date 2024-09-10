@@ -51,7 +51,7 @@ export default function TopRestaurants() {
           type="text"
         />
       </div>
-      <h3 className=" font-bold text-xl mb-5">{title}</h3>
+      <h3 className="text-center font-bold text-xl mb-5">{title}</h3>
       <div className="flex flex-wrap place-content-center gap-6">
         {isLoading && <ShimmerTopRestaurantPage />}
         {error && <p>ERROR - {error.message}</p>}

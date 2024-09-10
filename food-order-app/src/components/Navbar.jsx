@@ -9,7 +9,7 @@ export default function Navbar() {
           className="h-10"
           src="https://cdn.pixabay.com/photo/2012/04/13/01/51/hamburger-31775_1280.png"
         />
-        <span className="">Dummy Swiggy</span>
+        <span className="">Foodie&apos;s Place</span>
       </div>
       <div>
         <ul className="flex gap-6">

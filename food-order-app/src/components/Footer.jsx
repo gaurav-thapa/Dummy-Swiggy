@@ -7,7 +7,7 @@ export default function Footer() {
             className="h-10"
             src="https://cdn.pixabay.com/photo/2012/04/13/01/51/hamburger-31775_1280.png"
           />
-          DUMMY Swiggy
+          Foodie&apos;s Place
         </div>
         <div className="text-center mt-10">Created with ❣️by Gaurav Thapa</div>
         <div className="text-center my-5">©️2024</div>
